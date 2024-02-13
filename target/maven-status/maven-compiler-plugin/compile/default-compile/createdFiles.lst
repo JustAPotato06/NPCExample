@@ -1,0 +1,6 @@
+dev\potato\npcexample\commands\CreateNPCCommand.class
+dev\potato\npcexample\NPCExample.class
+dev\potato\npcexample\models\NPC$1.class
+dev\potato\npcexample\listeners\NPCListeners.class
+dev\potato\npcexample\utilities\NPCUtilities.class
+dev\potato\npcexample\models\NPC.class

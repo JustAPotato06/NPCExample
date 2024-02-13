@@ -1,0 +1,9 @@
+name: NPCExample
+version: '${project.version}'
+main: dev.potato.npcexample.NPCExample
+api-version: '1.20'
+commands:
+  create:
+    description: Creates an NPC
+    usage: /create
+    permission: op
