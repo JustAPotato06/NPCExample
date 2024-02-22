@@ -53,6 +53,7 @@ public class NPCListeners implements Listener {
             // Send packets
             // Rotate head packet - Horizontal head movement
             connection.send(new ClientboundRotateHeadPacket(npcServerPlayer, yawByte));
+
             // Move entity packet - Vertical head movement & Body Rotation
             connection.send(new ClientboundMoveEntityPacket.Rot(npcServerPlayer.getBukkitEntity().getEntityId(), yawByte, pitchByte, false));
         }

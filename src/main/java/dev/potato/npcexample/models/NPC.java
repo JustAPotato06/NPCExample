@@ -100,6 +100,7 @@ public class NPC {
                 connection.send(new ClientboundPlayerInfoRemovePacket(Collections.singletonList(npc.getUUID())));
             }
         }, 40);
+
         // Adding equipment to the NPC
         connection.send(new ClientboundSetEquipmentPacket(npc.getBukkitEntity().getEntityId(), List.of(
                 new Pair<>(EquipmentSlot.MAINHAND, CraftItemStack.asNMSCopy(new ItemStack(Material.DIAMOND_AXE))),
